@@ -8,6 +8,12 @@
       "android"
     ]
   },
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=4.0.0"
+    }
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mayflower/cordova-android-movetasktoback.git"
