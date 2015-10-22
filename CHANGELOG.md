@@ -12,3 +12,7 @@ Initial release.
 ## Version 0.1.2
 
   * Only restrict engine for android.
+
+## Version 0.1.3
+
+  * Change namespace to `mayflower` for consistency.

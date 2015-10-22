@@ -12,15 +12,15 @@ Install the plugin into your cordova project via
 
     cordova plugin add cordova-android-movetasktoback
 
-After installation the plugin exposes the method `Mayflower.moveTaskToBack`.
+After installation the plugin exposes the method `mayflower.moveTaskToBack`.
 
 ## API
 
-Call `Mayflower.moveTaskToBack()` to move the task to the back of the stack.
+Call `mayflower.moveTaskToBack()` to move the task to the back of the stack.
 Success or failure are returned as a [Promises/A+](https://promisesaplus.com/)
 compliant promise.
 
-    Mayflower.moveTaskToBack()
+    mayflower.moveTaskToBack()
         .then(function() {
             console.log('success');
         })
