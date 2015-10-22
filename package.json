@@ -1,0 +1,30 @@
+{
+  "name": "cordova-android-movetasktoback",
+  "version": "0.1.0",
+  "description": "\n        Exposes Activity::moveTaskToBack to cordova. Allows to return to the previous activity programatically.\n    ",
+  "cordova": {
+    "id": "cordova-plugin-android-movetasktoback",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayflower/cordova-android-movetasktoback.git"
+  },
+  "keywords": [
+    "android",
+    "activity",
+    "close",
+    "exit",
+    "background",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "Christian Speckner",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/mayflower/cordova-android-movetasktoback/issues"
+  },
+  "homepage": "https://github.com/mayflower/cordova-android-movetasktoback#readme"
+}
