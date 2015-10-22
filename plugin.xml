@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="cordova-plugin-android-movetasktoback" version="0.1.0">
+
+    <name>cordova-android-movetasktoback</name>
+
+    <description>
+        Exposes Activity::moveTaskToBack to cordova. Allows to return to the previous activity programatically.
+    </description>
+
+    <license>Apache 2.0</license>
+
+    <keywords>android,activity,close,exit,background</keywords>
+
+    <repo>
+        https://github.com/mayflower/cordova-android-movetasktoback.git
+    </repo>
+
+    <author>Christian Speckner</author>
+
+    <js-module src="js/typescript_deferred.js" name="tsd"/>
+    <js-module src="js/plugin.js">
+        <clobbers target="Mayflower"/>
+    </js-module>
+
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="MoveTaskToBack">
+                <param
+                    name="android-package"
+                    value="de.mayflower.cordova.movetasktoback.MoveTaskToBack"/>
+            </feature>
+        </config-file>
+
+        <source-file
+            src="src/Android/MoveTaskToBack.java"
+            target-dir="src/de/mayflower/cordova/movetasktoback"/>
+    </platform>
+</plugin>
