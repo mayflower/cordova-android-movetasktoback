@@ -10,7 +10,7 @@ previous activity without terminating.
 
 Install the plugin into your cordova project via
 
-    cordova plugin install cordova-android-movetasktoback
+    cordova plugin add cordova-android-movetasktoback
 
 After installation the plugin exposes the method `Mayflower.moveTaskToBack`.
 
