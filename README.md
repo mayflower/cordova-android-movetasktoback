@@ -26,7 +26,7 @@ compliant promise.
         })
         .otherwise(function(e) {
             console.log('failed: ' + e);
-});
+    });
 
 **Important:** This plugin is specific to android. On all other platforms, the
 call will fail and return a rejected promise.
