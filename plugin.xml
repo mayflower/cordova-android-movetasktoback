@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-        id="cordova-plugin-android-movetasktoback" version="0.1.1">
+        id="cordova-plugin-android-movetasktoback" version="0.1.2">
 
     <name>cordova-android-movetasktoback</name>
 
     <engines>
-        <engine name="cordova" version=">=4.0.0" />
+        <engine name="cordova-android" version=">=4.0.0" />
     </engines>
 
     <description>
