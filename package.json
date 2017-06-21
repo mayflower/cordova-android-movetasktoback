@@ -1,9 +1,9 @@
 {
   "name": "cordova-android-movetasktoback",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "\n        Exposes Activity::moveTaskToBack to cordova. Allows to return to the previous activity programatically.\n    ",
   "cordova": {
-    "id": "cordova-plugin-android-movetasktoback",
+    "id": "cordova-android-movetasktoback",
     "platforms": [
       "android"
     ]

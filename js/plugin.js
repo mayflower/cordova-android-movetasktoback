@@ -2,7 +2,7 @@
 
 var exec = require('cordova/exec'),
     argscheck = require('cordova/argscheck'),
-    tsd = require('cordova-plugin-android-movetasktoback.tsd'),
+    tsd = require('cordova-android-movetasktoback.tsd'),
     cordova = require('cordova');
 
 var SERVICE_NAME = 'MoveTaskToBack';
