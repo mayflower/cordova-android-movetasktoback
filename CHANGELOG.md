@@ -16,3 +16,7 @@ Initial release.
 ## Version 0.1.3
 
   * Change namespace to `mayflower` for consistency.
+
+## Version 0.1.4
+
+  * Unify plugin and NPM ids to `cordova-android-plugin` to fix problems with Cordova 7.
