@@ -19,4 +19,4 @@ Initial release.
 
 ## Version 0.1.4
 
-  * Unify plugin and NPM ids to `cordova-android-plugin` to fix problems with Cordova 7.
+  * Unify plugin and NPM ids to `cordova-android-movetasktoback` to fix problems with Cordova 7.
